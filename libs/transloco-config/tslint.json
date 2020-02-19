@@ -1,7 +1,17 @@
 {
   "extends": "../../tslint.json",
   "rules": {
-    "directive-selector": [true, "attribute", "translocoWithLibs", "camelCase"],
-    "component-selector": [true, "element", "transloco-with-libs", "kebab-case"]
+    "directive-selector": [
+      true,
+      "attribute",
+      "translocoWithLibs",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "transloco-with-libs",
+      "kebab-case"
+    ]
   }
 }

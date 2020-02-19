@@ -34,7 +34,7 @@ export class TranslocoConfigModule {
       { id: 'en', label: 'English' },
       { id: 'es', label: 'Español' }
     ]
-  ): ModuleWithProviders {
+  ): ModuleWithProviders<TranslocoConfigModule> {
     return {
       ngModule: TranslocoConfigModule,
       providers: [
@@ -54,7 +54,7 @@ export class TranslocoConfigModule {
       ]
     };
   }
-  static forChild(scopeName: string, loader: any): ModuleWithProviders {
+  static forChild(scopeName: string, loader: any): ModuleWithProviders<TranslocoConfigModule> {
     return {
       ngModule: TranslocoConfigModule,
       providers: [

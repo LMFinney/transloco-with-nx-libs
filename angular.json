@@ -92,7 +92,8 @@
           "options": {
             "jestConfig": "apps/transloco-holder/jest.config.js",
             "tsConfig": "apps/transloco-holder/tsconfig.spec.json",
-            "setupFile": "apps/transloco-holder/src/test-setup.ts"
+            "setupFile": "apps/transloco-holder/src/test-setup.ts",
+            "passWithNoTests": true
           }
         }
       }
@@ -145,7 +146,8 @@
           "options": {
             "jestConfig": "libs/transloco-lib-a/jest.config.js",
             "tsConfig": "libs/transloco-lib-a/tsconfig.spec.json",
-            "setupFile": "libs/transloco-lib-a/src/test-setup.ts"
+            "setupFile": "libs/transloco-lib-a/src/test-setup.ts",
+            "passWithNoTests": true
           }
         }
       },
@@ -176,7 +178,8 @@
           "options": {
             "jestConfig": "libs/transloco-lib-b/jest.config.js",
             "tsConfig": "libs/transloco-lib-b/tsconfig.spec.json",
-            "setupFile": "libs/transloco-lib-b/src/test-setup.ts"
+            "setupFile": "libs/transloco-lib-b/src/test-setup.ts",
+            "passWithNoTests": true
           }
         }
       },
@@ -207,7 +210,8 @@
           "options": {
             "jestConfig": "libs/transloco-config/jest.config.js",
             "tsConfig": "libs/transloco-config/tsconfig.spec.json",
-            "setupFile": "libs/transloco-config/src/test-setup.ts"
+            "setupFile": "libs/transloco-config/src/test-setup.ts",
+            "passWithNoTests": true
           }
         }
       },
